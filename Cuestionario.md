@@ -70,3 +70,33 @@
 ### 17. ¿Cuál es el mejor método para transferir el valor de un contrato?
 
 - address.call
+
+### 18. Una función de pago que no tiene ningún código, es una función pura
+
+- false
+
+### 19. Si una función externa llama a una función privada, el msg.sender dentro de la función privada tendrá la dirección de
+
+- La primera persona que llama (podría ser un EOA)
+
+### 20. msg.sender se comporta como cualquier otro parámetro y es maleable por la persona que llama, por lo que no debe usarse
+
+- false
+
+### 21. ¿Cuál es el mejor método para transferir el valor de un contrato?
+
+- address.call
+
+### 22. Marca las posibles respuestas para tener tu código repartido entre diferentes contratos
+
+- Inheritance
+- Composition through direct call
+- Libraries
+
+### 23. A diferencia de Java, Solidity admite la herencia múltiple
+
+- true
+
+### 24. Las llamadas entre diferentes contratos conducen a
+
+- Internal transactions
